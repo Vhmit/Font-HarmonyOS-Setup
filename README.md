@@ -30,5 +30,44 @@ Harmony, que as fontes estarão lá.
 Selecione nas opções que você deseja, e depois reinicie o pc para que as alterações façam efeito.
 
 Distro usada para implementar a fonte: Mint :)
+
 OBS: Lembrando que isso só vale para o sistema operacional, em muitos aplicativos pode não ter
 suporte a modificação, e a padrão continuar como Roboto ou Ubuntu.
+
+----------------------------------------------------------------------------------------------
+## FONT HARMONY-OS FROM SETUP [TO ENGLISH]
+
+First I want to thank the creators of the font, which are in this link below:
+https://github.com/IKKI2000/harmonyos-fonts
+
+Because in them are all the variants of harmony, and this is just a step by 
+step of ow to install in your linux distro, using the necessary.
+---------------------------------------------------------------------------
+
+Start by cloning this repo anywhere on your pc, starting with:
+```
+git clone https://github.com/Vhmit/Font-HarmonyOS-Setup.git
+```
+Then enter the folder and open your terminal there to make the commands.
+```
+sudo mkdir /usr/share/fonts/truetype/HarmonyOS
+```
+
+This is the directory that contains all the system fonts, so you need to 
+create a folder there, to push the fonts. Then you run:
+```
+sudo cp -R HarmonyOS* /usr/share/fonts/truetype/HarmonyOS
+```
+The * will make it copy everything named harmony to the created folder.
+
+Now you can go to the list of fonts on your system, and search with the 
+magnifying glass for the name Harmony, that the sources will be there.
+
+Select the options you want, and then restart your PC for the changes 
+to take effect.
+
+Distro used to implement source: Mint :)
+
+OBS: Remembering that this only applies to the operating system, in many 
+applications it may not have support modification, and default to continue 
+as Roboto or Ubuntu.
